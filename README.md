@@ -2,7 +2,7 @@
   
 ## Answers
 
-2.
+### Question 2
 * What are the Top 25 schools (.edu domains)?
 ```SQL
 SELECT 
@@ -44,7 +44,8 @@ FROM users
 
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2c.jpg)
 
-3. query for the sign up counts for each hour.
+### Question 3
+* query for the sign up counts for each hour.
 
 ```SQL
 -- display top 20 signup rank hour --
@@ -62,8 +63,8 @@ LIMIT 20;
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/3.jpg)
 
 
-4.
-• Do different schools (.edu domains) prefer different courses?
+### Question 4
+* Do different schools (.edu domains) prefer different courses?
 
 ```SQL
 SELECT 
@@ -95,7 +96,7 @@ LIMIT 25;
 
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4a.jpg)
 
-• What courses are the New Yorkers students taking?
+* What courses are the New Yorkers students taking?
 
 ```SQL
 SELECT 
@@ -119,7 +120,7 @@ GROUP BY city;
 
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4b.jpg)
 
-• What courses are the Chicago students taking?
+* What courses are the Chicago students taking?
 
 ```SQL
 SELECT 
