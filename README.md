@@ -15,6 +15,8 @@ ORDER BY 2 DESC
 LIMIT 25;
 ```
 
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2a.jpg)
+
 • How many .edu learners are located in New York?
 
 ```SQL
