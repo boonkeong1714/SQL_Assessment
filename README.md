@@ -2,7 +2,7 @@
 
 2.
 • What are the Top 25 schools (.edu domains)?
-
+```SQL
 SELECT 
 	email_domain AS "Top 25 schools (.edu domains)", 
 	COUNT(DISTINCT user_id) AS "Amount"
@@ -13,7 +13,7 @@ FROM users
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 25;
-
+```
 
 • How many .edu learners are located in New York?
 
