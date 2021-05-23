@@ -17,6 +17,7 @@ LIMIT 25;
 
 • How many .edu learners are located in New York?
 
+```SQL
 SELECT 
 	COUNT(user_id) AS "How many .edu learners are located in New York?"
 
@@ -31,10 +32,11 @@ SELECT
 
 FROM users
 	WHERE (mobile_app = "mobile-user");
-
+```
 
 3. query for the sign up counts for each hour.
 
+```SQL
 -- display top 20 signup rank hour --
 SELECT 
 	strftime("%Y-%m-%d %Hhr", sign_up_at) AS "Hour",
@@ -45,11 +47,12 @@ FROM users
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 20;
-
+```
 
 4.
 • Do different schools (.edu domains) prefer different courses?
 
+```SQL
 SELECT 
   email_domain AS School,
 	SUM(CASE 
@@ -75,11 +78,12 @@ FROM users
 GROUP BY email_domain
 ORDER BY COUNT(email_domain) DESC
 LIMIT 25;
-
+```
 
 
 • What courses are the New Yorkers students taking?
 
+```SQL
 SELECT 
 	SUM(CASE WHEN learn_cpp = "started" THEN 1 
            WHEN learn_cpp = "completed" THEN 1 ELSE 0 END) "C++",
@@ -97,10 +101,11 @@ FROM users
 
 WHERE city = "New York"
 GROUP BY city;
-
+```
 
 • What courses are the Chicago students taking?
 
+```SQL
 SELECT 
 	SUM(CASE WHEN learn_cpp = "started" THEN 1 
            WHEN learn_cpp = "completed" THEN 1 ELSE 0 END) "C++",
@@ -118,7 +123,7 @@ FROM users
 
 WHERE city = "Chicago"
 GROUP BY city;
-
+```
 
 -----
 ●  	What did you like about this project?
