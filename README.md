@@ -148,14 +148,17 @@ GROUP BY city;
 
 **===== Reflection Questions =====**  
 
-1. What did you like about this project?
-..It is like treausre hunting, using SQL to nagivate and locate the treasure.
+1. What did you like about this project?  
+ 
+ It is like treausre hunting, using SQL to nagivate and locate the treasure.
 
-2. What did you struggle with in this project?
-..* Tried to count how many NULL, which is quite tricky to do.
-..* Deal with slightly big amount(>500) of data is quite overwhelming.
+2. What did you struggle with in this project?  
 
-3. What would make your experience with this assessment better?
+ * Tried to count how many NULL, which is quite tricky to do.
+ * Deal with slightly big amount(>500) of data is quite overwhelming.
+
+3. What would make your experience with this assessment better?  
+
 to learn SQL better we need to do a lot of exercise,
 Analyze Data SQL in codeacademy
 
