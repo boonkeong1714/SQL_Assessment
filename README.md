@@ -1,7 +1,9 @@
 # SQL Assessment: Codecademy Learners Mockup Data
+  
+##Answers
 
 2.
-• What are the Top 25 schools (.edu domains)?
+..* What are the Top 25 schools (.edu domains)?
 ```SQL
 SELECT 
 	email_domain AS "Top 25 schools (.edu domains)", 
@@ -142,14 +144,17 @@ GROUP BY city;
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4c.jpg)
 
 -----
-●  	What did you like about this project?
-It is like treausre hunting, using SQL to nagivate and locate the treasure.
 
-●  	What did you struggle with in this project?
-Tried to count how many NULL, which is quite tricky to do.
-Deal with slightly big amount(>500) of data is quite overwhelming.
+**===== Reflection Questions =====**  
 
-●  	What would make your experience with this assessment better?
+1. What did you like about this project?
+..It is like treausre hunting, using SQL to nagivate and locate the treasure.
+
+2. What did you struggle with in this project?
+..* Tried to count how many NULL, which is quite tricky to do.
+..* Deal with slightly big amount(>500) of data is quite overwhelming.
+
+3. What would make your experience with this assessment better?
 to learn SQL better we need to do a lot of exercise,
 Analyze Data SQL in codeacademy
 
