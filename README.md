@@ -1,9 +1,9 @@
 # SQL Assessment: Codecademy Learners Mockup Data
   
-##Answers
+## Answers
 
 2.
-..* What are the Top 25 schools (.edu domains)?
+* What are the Top 25 schools (.edu domains)?
 ```SQL
 SELECT 
 	email_domain AS "Top 25 schools (.edu domains)", 
@@ -19,7 +19,7 @@ LIMIT 25;
 
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2a.jpg)
 
-• How many .edu learners are located in New York?
+* How many .edu learners are located in New York?
 
 ```SQL
 SELECT 
@@ -32,7 +32,7 @@ FROM users
 ![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2b.jpg)
 
 
-• How many of these Codecademy learners are using the mobile app?
+* How many of these Codecademy learners are using the mobile app?
 
 ```SQL
 SELECT 
