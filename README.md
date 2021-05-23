@@ -25,16 +25,22 @@ SELECT
 
 FROM users
 	WHERE (city = "New York") AND (email_domain LIKE "%edu");
+```
+
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2b.jpg)
 
 
 • How many of these Codecademy learners are using the mobile app?
 
+```SQL
 SELECT 
 	COUNT(user_id) AS "How many of these Codecademy learners are using the mobile app?"
 
 FROM users
 	WHERE (mobile_app = "mobile-user");
 ```
+
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/2c.jpg)
 
 3. query for the sign up counts for each hour.
 
@@ -50,6 +56,9 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 20;
 ```
+
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/3.jpg)
+
 
 4.
 • Do different schools (.edu domains) prefer different courses?
@@ -82,6 +91,7 @@ ORDER BY COUNT(email_domain) DESC
 LIMIT 25;
 ```
 
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4a.jpg)
 
 • What courses are the New Yorkers students taking?
 
@@ -105,6 +115,8 @@ WHERE city = "New York"
 GROUP BY city;
 ```
 
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4b.jpg)
+
 • What courses are the Chicago students taking?
 
 ```SQL
@@ -126,6 +138,8 @@ FROM users
 WHERE city = "Chicago"
 GROUP BY city;
 ```
+
+![Query Results 2a](https://raw.githubusercontent.com/boonkeong1714/SQL_Assessment/main/4c.jpg)
 
 -----
 ●  	What did you like about this project?
