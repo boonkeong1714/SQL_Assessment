@@ -1,4 +1,4 @@
-# SQL Assessment: Codecademy Learners Mockup Data
+# SQL Assessment: [Codecademy Learners Mockup Data](https://www.codecademy.com/practice/projects/sql-codecademy-student-learners)
   
 ## Answers
 
